@@ -16,7 +16,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
 
     container:
       image: barichello/godot-ci:3.3.3
